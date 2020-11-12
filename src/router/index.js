@@ -5,10 +5,10 @@ const Home = () => import('../views/home/Home')
 const Category = () => import('../views/category/Category')
 const Cart = () => import('../views/cart/Cart')
 const Profile = () => import('../views/profile/Profile')
-//安装插件
+//1.安装插件
 Vue.use(VueRouter)
 
-//2创建router
+//2.创建router
 const routes = [
   {
     path: '',
@@ -36,5 +36,5 @@ const router = new VueRouter({
   mode: 'history'
 })
 
-//3导出
+//3.导出
 export default router

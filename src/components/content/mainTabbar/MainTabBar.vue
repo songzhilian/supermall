@@ -1,14 +1,14 @@
 <template>
   <tab-bar>
-      <tab-bar-item path="/home" activeColor="green">
+      <tab-bar-item path="/home">
         <!-- 非import使用别名时，前面得加~ -->
         <img slot="item-icon" src="~assets/img/tabbar/home.svg" alt="">
-        <img slot="item-icon-active" src="~assets/img/tabbar/home-active.svg" alt="">
+        <img slot="item-icon-active" src="~assets/img/tabbar/home_active.svg" alt="">
         <div slot="item-text">首页</div>
       </tab-bar-item>
       <tab-bar-item path="/category">
         <img slot="item-icon" src="~assets/img/tabbar/category.svg" alt="">
-        <img slot="item-icon-active" src="~assets/img/tabbar/category-active.svg" alt="">
+        <img slot="item-icon-active" src="~assets/img/tabbar/category_active.svg" alt="">
         <div slot="item-text">分类</div>
       </tab-bar-item>
       <tab-bar-item path="/cart">
